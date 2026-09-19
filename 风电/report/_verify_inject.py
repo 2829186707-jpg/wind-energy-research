@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+t = open(r'D:\桌面\风电\风电\report\index.html', encoding='utf-8').read()
+print('size:', len(t))
+print('inject D_ANNUAL:', 'window["D_ANNUAL"]=' in t)
+print('inject D_GLOBAL:', 'window["D_GLOBAL"]=' in t)
+print('inject D_INVEST:', 'window["D_INVEST"]=' in t)
+print('inject D_BOM_OFFSHORE:', 'window["D_BOM_OFFSHORE"]=' in t)
+print('inject D_BOM_ONSHORE:', 'window["D_BOM_ONSHORE"]=' in t)
+print('inject D_OEM:', 'window["D_OEM"]=' in t)
+print('inject D_VAL:', 'window["D_VAL"]=' in t)
+print('inject D_LAYER:', 'window["D_LAYER"]=' in t)
+print('inject D_PARTS:', 'window["D_PARTS"]=' in t)
